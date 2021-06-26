@@ -1,0 +1,34 @@
+.home-div{
+    background-image:  url("../images/home1.jpg");
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 0.8;
+}
+.content{
+    /* width: 100%; */
+    /* position: absolute; */
+    top:30%;
+    text-align: center;
+    /* color:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)); */
+    
+    
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: #52006A;
+}
+.content p{
+    font-size: 25px;
+    color:  white; 
+    font-family: 'Playfair Display', serif;
+    
+}

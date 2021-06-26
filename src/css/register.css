@@ -1,0 +1,94 @@
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+    background-attachment: fixed;
+    
+} */
+.register-div{
+    /* width: 100%;
+    height: 100%; */
+    background-image: url('../images/login1.jpg');
+    /* background-repeat: no-repeat;/
+    background-size: cover; */
+   
+    overflow: hidden;
+    /* opacity: 0.8; */
+    /* display: inline; */
+    /* position: fixed;    top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%; */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.register{
+    margin-top: 52px;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.registerForms{
+    padding: 10px;
+    padding-top: 30px;
+    background: rgba(4, 44, 85, 0.7);
+    border-radius: 10px;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+}
+.registerInput{
+    width: 250px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family:'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 5px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+    opacity: 0.9;
+}
+
+.registerInput-si{
+    background:#04009A;
+    font-size: 19px;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 8px;
+    width: 70%;
+    color:white;
+letter-spacing: 1px;
+}
+h1{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size:40px;
+
+}
+::placeholder{
+    color: white !important;
+    opacity: 0.8;
+}
+
+.registerForm{
+    padding-left: inherit;
+}
+p{
+    color: white;
+}
+.link{
+    text-decoration: "none";
+    font-family: 'Play', sans-serif;
+    color: greenyellow;
+}
+
