@@ -1,0 +1,121 @@
+/* body{
+    background-image: url("../images/back2.jpg");
+    overflow: hidden;
+    background-size: cover;
+} */
+.login-div {
+    /* font-family: Tahoma, Geneva, sans-serif;
+    /* color: #fff; */
+    /* background-color: #fff; 
+    background-image: url("../images/back2.jpg");
+    overflow: hidden;
+    background-size: cover;
+    /* width: 100%;
+    height: 100%; */
+    background-image: url('../images/login1.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+   
+    overflow: hidden;
+    /* opacity: 0.5; */
+    /* display: inline; */
+    /* position: fixed;    top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%; */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.login
+{
+    background: rgba(4, 44, 85, 0.7);
+    border-radius: 15px;
+    padding: 40px;
+    width: 280px;
+    height: 340px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+h1{
+    text-align: center;
+}
+.loginForm {
+    align-items: center;
+    margin: auto;
+    width: 220px;
+    height: 250px;
+}
+input
+{
+    width: 200px;
+    background: transparent;
+    border: none;
+    /* margin-left: 2px; */
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    opacity: 0.9;
+}
+input[type=submit]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.si{
+
+    border-radius: 5px;
+    background-color: #04009A;
+    width: 80%;
+    font-size: 20px;
+    line-height: 24px;
+    cursor:pointer;
+    border:none;
+    color: ivory;
+    padding: 7px 0px;
+    letter-spacing: 1px;
+}
+input[type=submit]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+h2
+{
+    color: white;
+    
+}
+a
+{
+    text-decoration: blink;
+}
+a:hover
+{
+    color: skyblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8;
+}
+p{
+    color: white;
+}

@@ -1,0 +1,36 @@
+nav{
+    margin-top: 0px;
+    background-color: #393E46;
+    overflow: hidden;
+
+}
+.navb{
+    text-decoration: none;
+    margin-right: 10px;
+    margin: 15px;
+    transition: 0.6s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 150;
+    float: right;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding: 2px;
+
+}
+ .navb:hover{
+    color: black;
+    cursor: pointer;
+    /* background-color: white; */
+    /* border-radius: 5px; */
+}
+/* .h1-logo{
+   float: left;
+} */
+.img-logo {
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 60px;
+    height: 55px;
+    padding: 2px;
+}

@@ -1,0 +1,108 @@
+ *{
+    margin:0px;
+    padding: 0px;
+   
+} */
+/* body{
+    background-image: url("../images/back6.jpg");
+    align-items:center;
+   
+    font-family: 'Times New Roman', Times, serif;
+} */
+.query{
+    color: navy;
+    background-color:lightblue;
+
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 30px;
+    
+}
+.dashboard1{
+     
+    /* background-repeat: no-repeat;
+ 
+    overflow: hidden;
+    /* opacity: 0.5; */
+    /* display: inline; */
+    /* position: fixed;    top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%; */
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+.container1{
+/*max-width: 700px;
+max-height:800px;
+width: 400px;*/
+margin:auto;
+
+
+
+justify-content: space-evenly;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.card-mi{
+    
+    display: flex;
+    flex-direction: column;
+    
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    align-items: center;
+    padding:30px;
+   
+    font-size: 20px;
+    background-color:rgba(4, 44, 85, 0.7);
+   margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+    width:340px;
+    height: 370px;
+}
+
+.submit{
+    width: 100%;
+   background-color: blue;
+    color:lightblue;
+    padding: 5px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    border:none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+::placeholder{
+    color: navy;
+} 
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+h3{
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-right: 6px;
+    color:#ccc
+}
+.card-detailss{
+    text-align: center;
+    
+}
+.medicinelogo{
+    width: 190px;
+    height:190px;
+ }

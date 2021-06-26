@@ -1,0 +1,80 @@
+.dashboard{
+    background-image: url("../images/dashboard1.jpg"); 
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow:hidden;
+}
+.query{
+   color: #ccc;
+   
+
+   width: 100%;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+   font-size: 30px;
+   
+}
+.container{
+max-width: 700px;
+max-height:800px;
+width: 400px;
+margin:auto;
+display: block;
+}
+.card-mi{
+   height: 370px;
+   width: 310px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   /* background-color: #fff; */
+   background-clip: border-box;
+   border: 1px solid rgba(0,0,0,.125);
+   /* border-radius: .25rem; */
+   align-items: center;
+   padding:30px;
+   font-size: 20px;
+   background-color:rgba(4, 44, 85, 0.7);
+   margin: auto;
+   border-radius: 10px;
+   margin-top: 50px;
+   opacity: 1;
+   margin-top: 110px;
+}
+.card-details{
+   margin: auto;
+   padding:15px;
+}
+
+.submit{
+   /* width: 80%; */
+   background-color: #04009A;
+   color:lightblue;
+   padding: 8px;
+   /* margin-top: 16px; */
+   /* margin-bottom: 30px; */
+   border:none;
+   border-radius: 8px;
+   font-size: 25px;
+   margin: auto;
+   text-align: center;
+  margin-left: 5px;
+   width: 60%;
+   margin-top: 26px;
+}
+::placeholder{
+   color: black;
+   font-family: sans-serif;
+   opacity: 0.5;
+}
+
+.medicinelogo{
+   width: 190px;
+   height:190px;
+}
