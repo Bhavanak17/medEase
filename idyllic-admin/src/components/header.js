@@ -18,7 +18,7 @@ const renderNonLoggedInUser = () => {
                 <img className="img-logo" src={logo} alt="logo" />
                 <Link className="navb"to="/login">Login</Link>
                 <Link className="navb"to="/register">Register</Link>
-                <Link className="navb"to="/">Home</Link>
+                <Link className="navb"to="/home">Home</Link>
             </nav>
     )
 }
@@ -26,6 +26,7 @@ const renderNonLoggedInUser = () => {
 const renderLoggedInUser = () => {
     return(
             <nav>
+                <img className="img-logo" src={logo} alt="logo" />
                 <Link className="navb" onClick={logout}>Sign out</Link>
                 <Link className="navb"to="/home">Home</Link>
                 <Link className="navb"to="/dashboard">Requests</Link>

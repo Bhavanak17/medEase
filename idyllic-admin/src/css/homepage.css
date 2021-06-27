@@ -1,5 +1,6 @@
 .home-div{
-    background-image:  url("../images/home1.jpg");
+    /*background-image: linear-gradient(rgba(179, 124, 124, 0.40),rgba(0,0,0,0.20)), url("../images/home1.jpg"); */
+    background-image: url('../images/bg2.jpg');
     overflow: hidden;
     height: 100vh;
     background-size: cover;
@@ -10,25 +11,41 @@
 .content{
     /* width: 100%; */
     /* position: absolute; */
-    top:30%;
+    top:60%;
     text-align: center;
     /* color:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)); */
     
     
 }
 .content h1{
-    font-size: 70px;
-    margin-top: 45px;
+    font-size: 85px;
+    margin-top: 90px;
+    letter-spacing: 1px;
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 5, 68);
+    text-shadow:4px 4px  black;
 }
 .content h2{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
-    color: #52006A;
+    color: rgb(5, 5, 68);
 }
 .content p{
     font-size: 25px;
-    color:  white; 
-    font-family: 'Playfair Display', serif;
+    color: rgb(5, 5, 68); 
+    font-family: 'Assistant', sans-serif;
     
+}
+.project-div{
+    font-family: 'Assistant', sans-serif;
+    font-size: 25px;
+    color: darkblue;
+    margin: auto;
+    text-align: center;
+   
+    align-content: flex-start;
+}
+.project-div p{
+    color: rgb(5, 5, 68);
+    font-family: 'Assistant', sans-serif;
 }
