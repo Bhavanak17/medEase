@@ -19,3 +19,5 @@ We can use this approach for not just for medicines but for all our daily needs 
 ### Tech Used:
 Backend - node.js, Frontend - React.js, Database - MongoDB, Handling states - Redux
 
+### YouTube link:
+<a href="https://youtu.be/nf8uLVCNtX0">Idyllic-medEase</a>
