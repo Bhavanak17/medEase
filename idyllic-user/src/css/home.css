@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/mainlogo.png");
+    background-size: cover;
+    background-position:center;
+opacity: 0.5;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top:30%;
+    text-align: center;
+    color:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    
+    
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 5px;
+    color:black;
+}
+.content p{
+    font-size: 25px;
+    color:  black;
+}
